@@ -1,0 +1,20 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Here is your {{category}} cat picture</h1>
+
+<img src="{{cat_img}}">
+
+{% if cat_fact %}
+
+<h2>Random Cat Fact</h2>
+
+<p>{{cat_fact}}</p>
+
+{% endif %}
+
+
+
+{% endblock %}
