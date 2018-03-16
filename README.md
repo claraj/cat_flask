@@ -1,11 +1,13 @@
 # Cat Site
 
-Uses [The Cat API](http://thecatapi.com/) and [Cat Facts](https://catfact.ninja/#!/Cat_Facts/fact) API.
+Uses [The Cat API](http://thecatapi.com/) and [Cat Facts](https://catfact.ninja/#!/Cat_Facts/fact) API and the [YouTube](https://developers.google.com/youtube/v3/quickstart/python) API.
 
 500 image from [HTTP Cats](https://http.cat/).
 
 ## To install and run
 
+* Create a [YouTube API key](https://developers.google.com/youtube/registering_an_application). You only need an API key, not OAuth credentials.  
+* Create an environment variable **YOUTUBE_API_KEY** holding your key.
 * Create and activate virtual environment
 * `pip install -r requirements.txt`
 * `python app.py`
