@@ -8,7 +8,7 @@ Uses [The Cat API](http://thecatapi.com/) and [Cat Facts](https://catfact.ninja/
 
 * Create a [YouTube API key](https://developers.google.com/youtube/registering_an_application). You only need an API key, not OAuth credentials.  
 * Create an environment variable **YOUTUBE_API_KEY** holding your key.
-* Create and activate virtual environment
+* Create and activate virtual environment using Python 3
 * `pip install -r requirements.txt`
 * `python app.py`
 
