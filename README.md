@@ -17,3 +17,11 @@ App will be running on http://127.0.0.1:5000
 ## To Do
 
 Better error handling. A new module that manages all of the API requests. All kinds of other things.
+
+# Tests 
+
+Placeholder tests provided. To run tests, use this command from the root directory of the project
+
+`python -m unittest discover tests`
+
+The discover option will find and run all the tests in the tests directory. 
