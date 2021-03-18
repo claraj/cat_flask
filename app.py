@@ -23,7 +23,10 @@ def get_cat():
 
 @app.route('/store-data')
 def store_data():
-    db.store_data('example')
+    # this doesn't do anything except to be an example for how a real db call would be made
+    # to code in the database/db.py file
+    result = db.store_data('example')
+    print(result)
     return redirect('/')
 
 
