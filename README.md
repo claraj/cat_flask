@@ -10,6 +10,11 @@ Uses [The Cat API](http://thecatapi.com/) and [Cat Facts](https://catfact.ninja/
 * Create an environment variable **YOUTUBE_API_KEY** holding your key.
 * Create a Cat API key at https://thecatapi.com/signup and create an environment variable **CAT_API_KEY** holding your key
 
+(Optional - turn on debug mode with magic app restarting when you change the code with)
+
+`export FLASK_DEBUG=1`   For Macs/Linux
+`set FLASK_DEBUG=1`   For PCs
+
 * Create and activate virtual environment using Python 3
 * `pip install -r requirements.txt`
 * `python app.py`

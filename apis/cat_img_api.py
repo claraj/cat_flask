@@ -9,11 +9,14 @@ CAT_API_KEY = os.environ.get('CAT_API_KEY')
 def get_cat_img(category):
 
     try:
+
+        # Authenticate to the Cat API by setting the key as a request header, per the documentation
         headers = {
             'x-api-key': CAT_API_KEY
         }
 
         # get category list 
+        # Maybe this could be cached somewhere instead of requested every time 
         categories_response = requests.get(categories_url, headers=headers).json()
 
         # convert category into category id 

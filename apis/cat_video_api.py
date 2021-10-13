@@ -33,10 +33,11 @@ def cat_video(category):
         title = first_result['snippet']['title']
         video_id = first_result['id']['videoId']
 
-        return { 'title': title, 'video_id': video_id }
+        return {'title': title, 'video_id': video_id}
 
     except Exception as e:
         print(e)
 
+
 if __name__ == '__main__':
-    print(cat_vid('cat'));
+    print(cat_vid('cat'))
