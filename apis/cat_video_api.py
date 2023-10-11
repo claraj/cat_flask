@@ -39,4 +39,4 @@ def cat_video(category):
         print(e)
 
 if __name__ == '__main__':
-    print(cat_video('cat'));
+    print(cat_video('cat'))
